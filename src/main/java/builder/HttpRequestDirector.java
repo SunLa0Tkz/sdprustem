@@ -1,11 +1,5 @@
 package builder;
 
-/**
- * The Director.
- * Knows two ready-made request configurations and builds them
- * through the HttpRequestBuilder interface only - it never depends
- * on a concrete builder.
- */
 public class HttpRequestDirector {
 
     private static final String USERS_ENDPOINT = "https://api.example.com/users";
